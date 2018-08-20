@@ -11,7 +11,7 @@ use Pkerrigan\Xray\Segment;
  */
 class DaemonSegmentSubmitter implements SegmentSubmitter
 {
-    const MAX_SEGMENT_SIZE = 64000;
+    const MAX_SEGMENT_SIZE = 6400;
 
     const HEADER = [
         'format' => 'json',
